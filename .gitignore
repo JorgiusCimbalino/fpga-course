@@ -1,0 +1,39 @@
+# Workspace/tool metadata
+.agents/
+.aws/
+.codex/
+.vscode/
+.idea/
+
+# Build and simulation output
+**/build/
+**/sim_build/
+**/obj_dir/
+**/.Xil/
+**/.cache/
+**/.runs/
+**/.sim/
+
+# Waveforms and generated FPGA artifacts
+*.vcd
+*.fst
+*.ghw
+*.wdb
+*.bit
+*.bin
+*.asc
+
+# Vivado session files
+vivado.jou
+vivado.log
+vivado_*.backup.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
